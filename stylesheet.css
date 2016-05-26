@@ -1,0 +1,36 @@
+h1{
+	color: blue;
+	text-align:center;
+}
+div{
+	
+	display: block;
+	position: relative;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 1px dashed violet;
+	margin: 40px auto auto auto;
+	text-align:center;
+}
+.description {
+	border: 1px dashed violet;
+}
+.resume{
+	border: 1px dashed blue;
+}
+.hobby{
+	border: 1px dashed green;
+}
+.photo{
+	border: 1px dashed red;
+}
+div p{
+	position:relative;
+	margin-top: 40px;
+	font-size: 14px;
+	font-family:cursive;
+}
+a{
+	text-decoration:none;
+}
