@@ -1,36 +1,39 @@
-h1{
-	color: blue;
-	text-align:center;
-}
-div{
-	
-	display: block;
-	position: relative;
-	height: 100px;
-	width: 100px;
-	border-radius: 100%;
-	border: 1px dashed violet;
-	margin: 40px auto auto auto;
-	text-align:center;
-}
-.description {
-	border: 1px dashed violet;
-}
-.resume{
-	border: 1px dashed blue;
-}
-.hobby{
-	border: 1px dashed green;
-}
-.photo{
-	border: 1px dashed red;
-}
-div p{
+
+#header{
 	position:relative;
-	margin-top: 40px;
-	font-size: 14px;
-	font-family:cursive;
+	margin-top: -10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #e2d8ff;
+	display:block;
 }
+#navbar{
+	position:fixed;
+	left: 50%;
+	margin-left: -250px;
+	
+}
+ul{
+	position: fixed;
+	list-style-type: none;
+	
+}
+li{
+	border: 2px solid #000000;
+	font-family: cursive;
+	border-radius: 5px 5px;
+	background-color: #19198c;
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	color: #ffffff;
+
+}
+
 a{
 	text-decoration:none;
+	
+}
+body{ 
+	background-color: #c9edff;
 }
