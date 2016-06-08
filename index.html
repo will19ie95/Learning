@@ -1,18 +1,83 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Yong Learning To Code</title>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"
+		<title>Index Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  		<style> 
+  			.jumbotron{
+  				background-color: #4F93EF  ; /*blue */
+  				color: #ffffff;
+  				padding: 100px 25px;
+  			}
+  			.bg-grey{
+  				background-color: #f6f6f6;
+  			}
+  			.container-fluid{
+  				padding: 100px 100px;
+  			}
+  			.logo{
+  				font-size: 200px;
+  				color:  #039EE1;
+  			}
+  		</style>
 	</head>
 	<body>
-		<div id="header">
-			<div id="navbar"> 
-				<ul>
-					<a href="aboutMe.html"><li> About Me</li></a> 
-					 <a href="hobbies.html"><li>Hobbies</li></a> 
-					 <a href="resume.html"><li>Resume</li></a> 
-					 <a href="gallery.html"><li>Gallery </li></a>
-				</ul>
+		<div class="jumbotron text-center"> 
+			<h1>Welcome...</h1>
+			<p>To My First Webpage</p>
+		</div>
+		
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-8">
+					<h2>About Me Page</h2>
+					<h4>Learn what I am all about</h4>
+					<a href="aboutMe.html">
+						<button class="btn btn-default btn-lg">Find Out</button>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<span class="glyphicon glyphicon-user logo"></span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid bg-grey">
+			<div class="row">
+				<div class="col-sm-8">
+					<span class="glyphicon glyphicon-education logo"></span>
+				</div>
+				
+				<div class="col-sm-4">
+					<h2>My Experiences</h2>
+					<h4>What I know</h4>
+					<h5>What I'm currently learning</h5>
+					<h6>Resume</h6>
+					<a href="hobbies.html">
+						<button class="btn btn-default btn-lg">Check It Out</button>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="container-fluid ">
+			<div class="row">
+				<div class="col-sm-8">
+					<h2>Gallery</h2>
+					<h4>Take a Glimpse into My Life</h4>
+					<a href="gallery.html">
+					<button class="btn btn-default btn-lg">Look at Pictures</button>
+					</a>
+				</div>
+				
+				<div class="col-sm-4">
+					<span class="glyphicon glyphicon-picture logo"><span>
+				</div>
+				
 			</div>
 		</div>
 
